@@ -1,0 +1,119 @@
+    main .info-data{
+        margin-top: 36px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+        grid-gap: 20px;
+    }
+    main .info-data .card{
+        padding: 20px;
+        border-radius: 10px;
+        background: var(--light);
+        box-shadow: 4px 4px 16px rgba(0,0,0,.02);
+    }
+    main .card .head{
+        display: flex;
+        justify-content:space-between ;
+        align-items: flex-start ;
+    }
+    main .card .head h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    main .card .head p{
+        font-size: 14px;
+    }
+    main .card .head .icon{
+        font-size: 20px;
+        color: var(--green);
+    }
+    main .card .head .nicon{
+        height: 70px;
+        width: 80px;
+        padding-left: 10px;
+        /* top: 8px; */
+    }
+    
+
+
+    /* Input feilds */
+    #boxx{
+        height: 1350px;
+        width: 100%;
+        background: var(--light);
+        border-radius: 10px;
+        margin-top: 18px;
+        box-shadow: 4px 4px 16px rgba(0,0,0,.1);
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        /* background-color: lightpink; */
+    }
+    .container{
+        max-width: 95%;
+        width: 100%;
+        height: 750px;
+        /* background:var(--grey); */
+        padding: 25px 30px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .logindet{
+        height: 30px;
+        width: 100%;
+        /* background-color: #81D434; */
+        margin-bottom: 25px;
+        margin-top:20px;
+    }
+    .container form .user-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0 12px 0;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: calc(100% / 3 - 20px);
+    }
+    .user-details .input-box .details{
+        display: block;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .user-details .input-box input,select{
+        height: 45px;
+        width: 100%;
+        font-size: 16pxs;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding-left: 15px;
+        border-bottom-width: 2px ;
+        transition: all 0.3s ease;
+    }
+    .user-details .input-box input:focus,
+    .user-details .input-box input:valid{
+        border-color:var(--light-blue);
+    }
+    form .button{
+        height: 45px;
+        margin: 45px 0;
+    }
+    form .button input{
+        height: 100%;
+        width: 100px;
+        outline: none;
+        color: var(--dark);
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        background: #1775F1;
+        cursor: pointer;
+    }
+    /* Input feilds */
+    /* main */
+
+ /* Content */
+
